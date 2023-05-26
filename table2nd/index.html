@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 8px solid black;
+            border-right: none;
+        }
+        td{
+            padding: 5px;
+            border:3px solid black;
+        }
+        tr>td:last-child{
+            visibility: hidden;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- 1st -->
+        <tr>
+            <td rowspan="3">r1c1</td>
+            <td rowspan="2">r1c2</td>
+            <td colspan="2">r1c3</td>
+            <td rowspan="3">r1c5</td>
+            <td colspan="2">r1c6</td>
+            <td>r1c7</td>
+        </tr>
+        <!-- 2nd row -->
+        <tr>
+            <td>r2c3</td>
+            <td>r2c4</td>
+            <td>r2c5</td>
+            <td>r2c6</td>
+            <td>r2c7</td>
+        </tr>
+        <!-- 3 -->
+        <tr>
+            <td colspan="2">r3c2</td>
+            <td>r3c4</td>
+            <td>r3c5</td>
+            <td rowspan="3">r36</td>
+            <td>r3c7</td>
+        </tr>
+        <!-- 4 -->
+        <tr>
+            <td>r4c1</td>
+            <td colspan="2">r4c2</td>
+            <td colspan="3">r4c4</td>
+            <td>r47</td>
+        </tr>
+        <!-- 5th -->
+        <tr>
+            <td>r5c1</td>
+            <td colspan="2">r5c2</td>
+            <td rowspan="2">r5c4</td>
+            <td colspan="2">r5c5</td>
+            <td>r5c7</td>
+        </tr>
+        <!-- 6th -->
+        <tr>
+            <td>r6c1</td>
+            <td colspan="2">r6c2</td>
+            <td colspan="3">r65</td>
+            <td>r6c7</td>
+        </tr>
+        <!-- 7th -->
+        <tr>
+            <td rowspan="5">r7c1</td>
+            <td colspan="2" rowspan="3">r7c2</td>
+            <td>r7c4</td>
+            <td colspan="3">r7c9</td>
+            <td>r7c7</td>
+        </tr>
+        <!-- 8th -->
+        <tr>
+            <td rowspan="4">r8c4</td>
+            <td colspan="3" rowspan="4">r8c5</td>
+            <td >r8c7</td>
+        </tr>
+        <!-- 9th -->
+        <tr>
+            <td>r9c7</td>
+        </tr>
+        <!-- 10th -->
+        <tr>
+            <td>r10c2</td>
+            <td>r10c3</td>
+            <td>r107</td>
+        </tr>
+        <!-- 11th -->
+        <tr>
+            <td>r11c2</td>
+            <td>r11c3</td>
+            <td>r117</td>
+        </tr>
+        <!-- 12th -->
+        <tr>
+            <td>r12c1</td>
+            <td colspan="4">r12c2</td>
+            <td>r126</td>
+            <td rowspan="2"></td>
+            <td>r12c7</td>
+        </tr>
+        <!-- 13th -->
+        <tr>
+            <td colspan="3">r13c1</td>
+            <td>r13c4</td>
+            <td rowspan="2">r13c5</td>
+            <td rowspan="2">r13c6</td>
+            <td>r13c7</td>
+        </tr>
+        <!-- 14th -->
+        <tr>
+            <td colspan="3" rowspan="5">r14c1</td>
+            <td>r14c4</td>
+            <td>r14c6</td>
+            <td>r14c8</td>
+        </tr>
+        <!-- 15th -->
+        <tr>
+            <td>r15c4</td>
+            <td>r15c5</td>
+            <td>r15c6</td>
+            <td>r15c7</td>
+            <td>r15c8</td>
+        </tr>
+        <!-- 16th -->
+        <tr>
+            <td>r16c4</td>
+            <td>r16c5</td>
+            <td colspan="2" rowspan="2">r16c7</td>
+            <td>r16c8</td>
+        </tr>
+        <!-- 17th -->
+        <tr>
+            <td rowspan="3">r17c4</td>
+            <td rowspan="3">r17c5</td>
+            <td>r17c8</td>
+        </tr>
+        <!-- 18th -->
+        <tr>
+            <td colspan="2">r18c6</td>
+            <td>r18c8</td>
+        </tr>
+        <!-- 19th -->
+        <tr>
+            <td>r19c1</td>
+            <td colspan="3">r19c2</td>
+            <td colspan="2">r19c6</td>
+            <td>r19c8</td>
+        </tr>
+        <!-- 20th -->
+        <tr>
+            <td>r20c1</td>
+            <td colspan="6">r20c2</td>
+            <td>r20c8</td>
+        </tr>
+    </table>
+</body>
+</html>
